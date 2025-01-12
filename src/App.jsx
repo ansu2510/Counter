@@ -10,7 +10,6 @@ function App() {
   let addvalue = () => {
     if(counter < 25){
       setCounter(counter + 1)
-      console.log("clicked" , counter)
     }
     
 
@@ -19,7 +18,6 @@ function App() {
   let subtractvalue = () => {
     if(counter > 0){
       setCounter(counter - 1)
-      console.log("clicked" , counter)
     }
     
 
